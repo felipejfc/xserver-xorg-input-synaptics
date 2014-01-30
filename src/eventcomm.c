@@ -40,6 +40,7 @@
 #include <string.h>
 #include <stdio.h>
 #include "synproto.h"
+#include "synaptics.h"
 #include "synapticsstr.h"
 #include <xf86.h>
 #include <mtdev-plumbing.h>

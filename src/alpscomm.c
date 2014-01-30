@@ -33,6 +33,7 @@
 #endif
 
 #include <xorg-server.h>
+#include "synaptics.h"
 #include "synproto.h"
 #include "synapticsstr.h"
 #include "ps2comm.h"

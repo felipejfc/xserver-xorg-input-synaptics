@@ -44,6 +44,7 @@
 #include <sys/mouse.h>
 #include <errno.h>
 #include <string.h>
+#include "synaptics.h"
 #include "synproto.h"
 #include "synapticsstr.h"
 #include "ps2comm.h"            /* ps2_print_ident() */

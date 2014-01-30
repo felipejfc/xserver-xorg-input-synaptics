@@ -23,6 +23,7 @@
 #define _SYNAPTICSSTR_H_
 
 #include "synproto.h"
+#include "synaptics.h"
 
 #if GET_ABI_MAJOR(ABI_XINPUT_VERSION) < 18
 #define LogMessageVerbSigSafe xf86MsgVerb
@@ -201,6 +202,9 @@ typedef struct _SynapticsParameters {
 struct _SynapticsPrivateRec {
     SynapticsParameters synpara;        /* Default parameter settings, read from
                                            the X config file */
+    SynapticsSHM *synshm;       /* Current parameter settings. Will point to
+                                   shared memory if shm_config is true */
+    Bool shm_config;
     struct SynapticsProtocolOperations *proto_ops;
     void *proto_data;           /* protocol-specific data */
 

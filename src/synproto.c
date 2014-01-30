@@ -23,6 +23,7 @@
 
 #include "synproto.h"
 #include "synapticsstr.h"
+#include "synaptics.h"
 
 static int
 HwStateAllocTouch(struct SynapticsHwState *hw, SynapticsPrivate * priv)
