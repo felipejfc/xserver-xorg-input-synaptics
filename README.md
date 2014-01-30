@@ -11,7 +11,7 @@ In this fork I've put back SynapticsSHM into the driver to be able to use syncli
 HOW TO COMPILE AND INSTALL
 --------------------------
 
-** First run **
+**First run**
 
 ```
 ./autogen.sh
@@ -20,13 +20,13 @@ HOW TO COMPILE AND INSTALL
 And the script will tell you all the dependencies you'll have to install in order to make.
 Run the command again and again until you've resolved all the dependencies and can run ./autogen.sh without errors.
 
-** Uninstall current installed synaptics driver from the system **
+**Uninstall current installed synaptics driver from the system**
 
 ```
 sudo apt-get remove xserver-xorg-input-synaptics
 ```
 
-** The compile and install **
+**The compile and install**
 
 ```
 ./configure --exec_prefix=/usr 
