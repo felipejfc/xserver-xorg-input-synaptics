@@ -7,6 +7,7 @@ ABOUT
 -----
 
 In this fork I've put back SynapticsSHM into the driver to be able to use synclient monitor mode, so that the user can use xSwipe again for example.
+This also add support to 4 and 5 finger click on some more trackpads, It worked on my XPS14.
 
 HOW TO COMPILE AND INSTALL
 --------------------------
